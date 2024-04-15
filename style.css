@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+/*Esse " * {  } " serve para selecionar toda estrutura do CSS para aplicar o estilo, nesse contexto será necessário resetar as configurações padrões do CSS para que possamos fazer as estilizações desejadas. Para o reset CSS usamos margin: 0; para zerar as margens da pagina e padding: 0; para zerar o espaçamento entre o conteúdo e a borda. Com isso o conteúdo fica expremido e fica mais prático para estilizar  */
+body {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #2B4162 ;
+    color: #f5f0f6 ;    
+}
+
+.titulo-destaque {
+    color: #d7b377;
+}
+
+.texto-destaque {
+
+    color: rgb(255, 255, 255);
+}
+
+.imagem-desenvolvedor {
+    width: 500px;
+    height: auto;
+    padding: 5px;
+    border: 2px solid rgb(215, 179, 119);
+    border-radius: 25px;
+}
+
+.apresentacao {
+    margin: 10% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    background-color: #d7b377;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: #f5f0f6;
+    font-family: "Open Sans", sans-serif;
+
+}
